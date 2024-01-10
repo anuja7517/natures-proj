@@ -1,0 +1,31 @@
+@keyframes slideDown{
+    
+}
+
+@keyframes moveInRight{
+    0%{
+        transform:translateX(-6.25rem);
+        opacity: 0;
+    }
+    80%{
+        transition:translateX(-1.875rem);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes movInLeft{
+    0%{
+        transform: translate(-6.25rem);
+        opacity: 0;
+    }
+    80%{
+        transform: translate(1.875rem);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
