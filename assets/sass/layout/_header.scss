@@ -8,8 +8,8 @@
     url("../images/hero.jpg");
     background-position: center center;
     background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: fixed; 
+    background-size: cover;  
     clip-path: polygon(0 0, 100% 0,100% 75%,0 100%);
     position: relative;
     flex-direction: column;
