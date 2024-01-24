@@ -159,6 +159,7 @@ body {
 
 .feature-card {
   background-color: rgba(255, 255, 255, 0.8);
+<<<<<<< HEAD
   padding: 1.563rem;
   border-radius: 3px;
   box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.15);
@@ -172,6 +173,12 @@ body {
     background-clip: text;
     color: transparent;
     margin-bottom: 0.625rem; }
+=======
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  text-align: center; }
+>>>>>>> c01a806c1f7f3e32b79634704d4ed746e71f3a47
 
 .container {
   max-width: 71.25rem;
@@ -187,6 +194,12 @@ body {
 [class^=".col-"] {
   padding: 0 15px; }
 
+<<<<<<< HEAD
+=======
+.col-3 {
+  flex: 0 0 25%; }
+
+>>>>>>> c01a806c1f7f3e32b79634704d4ed746e71f3a47
 .col-6 {
   flex: 0 0 50%; }
 
@@ -231,3 +244,17 @@ body {
   background-color: #f7f7f7;
   padding: 15.625rem 0;
   margin-top: -12.5rem; }
+<<<<<<< HEAD
+=======
+
+.section-feature {
+  padding: 200px 0;
+  background-image: linear-gradient(135deg, rgba(62, 222, 34, 0.75), rgba(40, 180, 133, 0.75)), url("../images/nat-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transform: skewY(-7deg);
+  margin-top: -6.25rem; }
+  .section-feature > * {
+    transform: skewY(7deg); }
+>>>>>>> c01a806c1f7f3e32b79634704d4ed746e71f3a47
