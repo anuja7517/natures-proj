@@ -255,8 +255,8 @@ body {
   -webkit-box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.15);
   text-align: center;
-  -webkit-transition: all 0.4 ease-in-out;
-  transition: all 0.4 ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .feature-card:hover, .feature-card:focus, .feature-card:active {
   -webkit-transform: translateY(-1rem) scale(1.06);
