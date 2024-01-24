@@ -248,6 +248,30 @@ body {
           transform: scale(0.9);
 }
 
+.feature-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.563rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.15);
+  text-align: center;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.feature-card:hover, .feature-card:focus, .feature-card:active {
+  -webkit-transform: translateY(-1rem) scale(1.06);
+          transform: translateY(-1rem) scale(1.06);
+}
+.feature-card i[class^=icon-] {
+  font-size: 3.75rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3ede22), to(#28b485));
+  background-image: linear-gradient(to right, #3ede22, #28b485);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  margin-bottom: 0.625rem;
+}
+
 .container {
   max-width: 71.25rem;
   width: 100%;
