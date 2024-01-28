@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-@mixin lg($direction,$color...){
-    background-color: linear-gradient($direction,$color);
+@mixin lg($direction, $color...){
+    background-image: linear-gradient($direction, $color);
 }
 
 
