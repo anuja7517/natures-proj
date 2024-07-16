@@ -15,6 +15,15 @@
 html{
     font-size: 1rem;
 }
+
+ul{
+    list-style: none;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
 body{
     color: $color-grey-dark;
     font-size: 1rem;

@@ -14,3 +14,36 @@
     background-clip: text;
     color: transparent;
 }
+
+
+
+// MEDIA QUERY
+
+// 0 to 600 >> phone
+//  900 to 1200 >> tab port
+//  600 to 1200 >> tab landscape
+//  1200 + >> is where our normal css will apply 
+
+
+
+@mixin responsive-phone{
+    @media (max-width:600px){
+        @content;
+
+        
+    }
+}
+@mixin responsive-tabport{
+    @media (max-width:900px){
+        @content;
+        
+        
+    }
+}
+@mixin responsive-tabland{
+    @media (max-width:1200px){
+        @content;
+        
+        
+    }
+}

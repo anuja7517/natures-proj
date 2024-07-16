@@ -1,0 +1,44 @@
+.footer{
+    padding: 100px;
+    background-color: $color-grey-dark1;
+
+    &-logo{
+        display: inline-block;
+        width: 150px;
+
+        > img{
+            width: 100%;
+        }
+    }
+    &-navigation{
+        list-style: none;
+        >li{
+            display: inline-block;
+            margin-right: 1rem;
+
+            >a{
+               &:link,
+               &:visited{
+                text-decoration: none;
+                color: $color-white;
+                text-transform: uppercase;
+                display: inline-block;
+                transition: all .3s ease-in-out;
+            }
+        &:hover,&:focus,
+        &:active{
+            transform: scale(1.2);
+            box-shadow: 0 10px 20px rgba($color-dark, .4);
+            @include backgroundClip;
+             background-image: linear-gradient(to right,$color-primary-light,$color-primary-dark);
+
+        }
+    }
+        }
+    }
+
+    &-copyright{
+        color: $color-white;
+        text-align: justify;
+    }
+}
